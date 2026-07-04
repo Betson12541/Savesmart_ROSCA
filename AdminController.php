@@ -12,7 +12,8 @@ class AdminController extends Controller
         $totaluser = User::count();
         $pendingLoans = LoanApplication::where('status', 'Pending')->count();
         $approvedLoans = LoanApplication::where('status', 'Approved')->count();
-        $totalGroups = \App\Models\Group::count(); // kama una Model ya Group
+        $totalGroups = \App\Models\Group::count(); 
+        
 
         return view('admin.dashboard', compact('totalUsers', 'pendingLoans', 'approvedLoans', 'totalGroups'));
     }
