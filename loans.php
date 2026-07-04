@@ -22,7 +22,7 @@ if (isset($_POST['apply_loan'])) {
     }
 }
 ?>
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>SaveSmart ROSCA - Loans</title>
