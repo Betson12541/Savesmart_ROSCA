@@ -53,9 +53,13 @@ Access: http://localhost/Savesmart_ROSCA
 
 Project Team
 1.EDIGAR MARK -Project Manager-Coordinated project activities and timelines
+
 2.ERICK BETSON-Backend Developer-Developed the database and server-side logic
+
 3.AMWEL OYESI-Frontend Developer-Developed responsive user interface
+
 4.GODWIN RICHARD-UI/UX Designer-Designed wireframes and user experience
+
 5.MANSURA ABDULRAHIM -Business Analyst & QA-Requirements gathering and system testing
                          
 
