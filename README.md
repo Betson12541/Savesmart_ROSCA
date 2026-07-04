@@ -51,16 +51,15 @@ Access: http://localhost/Savesmart_ROSCA
 4. Process Payouts: Mark when a member has received their payout
 5. View Reportsgrț: Download or print cycle summary reports
 
-👥 Project Team
-No. 	Member Name	    Role	               Specific Contributions
-1		 EDIGAR MARK      Project Manager	        Coordinated project activities and timelines
-2	  ERICK BETSON       Backend Developer	     Developed the database and server-side logic
-3	  SAMWEL OYESI       Frontend Developer 	   Developed responsive user interface
-4	   GODWIN RICHARD    UI/UX Designer	         Designed wireframes and user experience
-5		MANSURA ABDULRAHIM  Business Analyst &     Requirements gathering and system testing
-                         QA
+Project Team
+1.EDIGAR MARK -Project Manager-Coordinated project activities and timelines
+2.ERICK BETSON-Backend Developer-Developed the database and server-side logic
+3.AMWEL OYESI-Frontend Developer-Developed responsive user interface
+4.GODWIN RICHARD-UI/UX Designer-Designed wireframes and user experience
+5.MANSURA ABDULRAHIM -Business Analyst & QA-Requirements gathering and system testing
+                         
 
-🔒 Security Features
+ Security Features
 - User authentication and authorization
 - Audit trail for every financial transaction
 - Data validation to prevent errors and fraud
