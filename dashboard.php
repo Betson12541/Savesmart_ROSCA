@@ -15,7 +15,7 @@ $groups_count = $conn->query($groups_sql)->fetch_assoc()['total'];
 $contrib_sql = "SELECT SUM(amount) as total FROM contributions WHERE user_id = $user_id";
 $contrib_total = $conn->query($contrib_sql)->fetch_assoc()['total'] ?? 0;
 
-// count loans
+
 $loans_sql = "SELECT COUNT(*) as total FROM loans WHERE user_id = $user_id AND status = 'Pending'";
 $loans_count = $conn->query($loans_sql)->fetch_assoc()['total'];
 ?>
