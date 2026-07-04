@@ -9,7 +9,7 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $totalUsers = User::count();
+        $totaluser = User::count();
         $pendingLoans = LoanApplication::where('status', 'Pending')->count();
         $approvedLoans = LoanApplication::where('status', 'Approved')->count();
         $totalGroups = \App\Models\Group::count(); // kama una Model ya Group
