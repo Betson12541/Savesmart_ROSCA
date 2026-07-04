@@ -19,7 +19,7 @@ $contrib_total = $conn->query($contrib_sql)->fetch_assoc()['total'] ?? 0;
 $loans_sql = "SELECT COUNT(*) as total FROM loans WHERE user_id = $user_id AND status = 'Pending'";
 $loans_count = $conn->query($loans_sql)->fetch_assoc()['total'];
 ?>
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>SaveSmart ROSCA - Dashboard</title>
