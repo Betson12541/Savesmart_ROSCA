@@ -39,6 +39,7 @@ if (isset($_POST['create_group'])) {
 
     <div class="container">
         <h2>Group Management</h2>
+
         
         <?php if(isset($success)) echo "<p class='success'>$success</p>"; ?>
         <?php if(isset($error)) echo "<p class='error'>$error</p>"; ?>
