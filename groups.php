@@ -24,7 +24,7 @@ if (isset($_POST['create_group'])) {
     }
 }
 ?>
-<!DOCTYPE html>
+    
 <html>
 <head>
     <title>SaveSmart ROSCA - Groups</title>
