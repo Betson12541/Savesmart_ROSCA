@@ -57,7 +57,7 @@ Project Team
 
 2.ERICK BETSON-Backend Developer-Developed the database and server-side logic
 
-3.AMWEL OYESI-Frontend Developer-Developed responsive user interface
+3.SAMWEL OYESI-Frontend Developer-Developed responsive user interface
 
 4.GODWIN RICHARD-UI/UX Designer-Designed wireframes and user experience
 
