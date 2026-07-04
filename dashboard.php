@@ -7,15 +7,15 @@ if (!isset($_SESSION['user_id'])) {
 include 'db.php';
 $user_id = $_SESSION['user_id'];
 
-// Hesabu groups za user
+// count user groups  
 $groups_sql = "SELECT COUNT(*) as total FROM group_members WHERE user_id = $user_id";
 $groups_count = $conn->query($groups_sql)->fetch_assoc()['total'];
 
-// Hesabu total contributions
+// count total contributions
 $contrib_sql = "SELECT SUM(amount) as total FROM contributions WHERE user_id = $user_id";
 $contrib_total = $conn->query($contrib_sql)->fetch_assoc()['total'] ?? 0;
 
-// Hesabu loans
+// count loans
 $loans_sql = "SELECT COUNT(*) as total FROM loans WHERE user_id = $user_id AND status = 'Pending'";
 $loans_count = $conn->query($loans_sql)->fetch_assoc()['total'];
 ?>
