@@ -8,7 +8,7 @@ include 'db.php';
 
 $user_id = $_SESSION['user_id'];
 
-// Create new group
+
 if (isset($_POST['create_group'])) {
     $group_name = $_POST['group_name'];
     $monthly_contribution = $_POST['monthly_contribution'];
